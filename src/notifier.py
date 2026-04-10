@@ -18,5 +18,5 @@ def send_telegram(message):
         logging.info("Telegram notification sent successfully")
         return True
     else:
-        logging.error(f"Failed to send Telegram notification: {response.text}")
+        logging.error(f"Failed to send Telegram notification")
         return False
