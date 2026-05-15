@@ -1,8 +1,8 @@
 name: Daily Quota Tracker
 
 on:
-  schedule:
-    - cron: '0 19 * * *'    # Runs  every day at 9 PM Egypt time (may be 10 PM in summer)
+  #schedule:
+   # - cron: '0 19 * * *'    # Runs  every day at 9 PM Egypt time (may be 10 PM in summer)
   workflow_dispatch:        # Allow manual runs
 
 jobs:
